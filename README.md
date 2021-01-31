@@ -17,7 +17,7 @@
  
 #### How to get the Token ?
 
- ``` 
+``` 
  Go https://notify-bot.line.me/zh_TW/ ,
  
  sign up / in , 
