@@ -3,6 +3,7 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 
+# line
 def lineNotifyMessage(token, msg):
     headers = {
             "Authorization": "Bearer " + token, 
@@ -13,6 +14,7 @@ def lineNotifyMessage(token, msg):
     r = requests.post("https://notify-api.line.me/api/notify", headers = headers, params = payload)
     return r.status_code
 
+#line token
 token = 'your_line_token'
 
 today = str(datetime.date.today())
