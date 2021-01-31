@@ -18,4 +18,9 @@
 
  `you can use the def directly , just to change the token`
  
- `Go https://notify-bot.line.me/zh_TW/ , sign up / in , click the Upper right corner then choose the "個人頁面" , scroll down and click "發行權杖" , select the demand that you need , finally , you get the token :))) `
+ `Go https://notify-bot.line.me/zh_TW/ , 
+  sign up / in , 
+  click the Upper right corner then choose the "個人頁面" ,
+  scroll down and click "發行權杖" ,
+  select the demand that you need ,
+  finally , you get the token :))) `
