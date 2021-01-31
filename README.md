@@ -13,7 +13,7 @@
 
 ## About Line
 
- `you can use the def directly , just to change the token`
+ you can use the def directly , just to change the token
  
 #### How to get the Token ?
 
