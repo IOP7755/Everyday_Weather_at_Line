@@ -22,6 +22,8 @@ key = "CWB_Key"
 
 r = requests.get(urls, verify=False)
 list_of_dicts = r.json()
+
+## the message which you need
 message = list_of_dicts['records']['locations'][0]['location'][0]['weatherElement'][0]['time'][0]['startTime']
 lineNotifyMessage(token, message)
 
