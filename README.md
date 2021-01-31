@@ -9,14 +9,13 @@
  
  > key = Go https://opendata.cwb.gov.tw/userLogin and sing up / in.
  
- 
- The message depends on the data of weather which you need.
+ > The message depends on the data of weather which you need.
 
 ## About Line
 
  `you can use the def directly , just to change the token`
  
-### How to get the Token ?
+#### How to get the Token ?
 
  ``` Go https://notify-bot.line.me/zh_TW/ ,
  
