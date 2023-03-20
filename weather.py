@@ -19,8 +19,9 @@ token = 'your_line_token'
 
 today = str(datetime.date.today())
 
-urls = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-021?Authorization=CWB-DAC435CA-1374-421C-A983-5552AD0B9A3B&locationName=%E5%8D%97%E6%8A%95%E5%B8%82&elementName=WeatherDescription&timeFrom=" + today + "T00%3A00%3A00"
 key = "CWB_Key"
+urls = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-021?Authorization=" + key + "&locationName=%E5%8D%97%E6%8A%95%E5%B8%82&elementName=WeatherDescription&timeFrom=" + today + "T00%3A00%3A00"
+
 
 r = requests.get(urls, verify=False)
 list_of_dicts = r.json()
